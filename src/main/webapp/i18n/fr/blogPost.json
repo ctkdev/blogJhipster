@@ -1,0 +1,27 @@
+{
+    "blogjhipsterApp": {
+        "blogPost" : {
+            "home": {
+                "title": "BlogPosts",
+                "createLabel": "Créer un nouveau BlogPost",
+                "createOrEditLabel": "Créer ou éditer un BlogPost"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le BlogPost {{ id }} ?"
+            },
+            "detail": {
+                "title": "BlogPost"
+            },
+            "title": "Title",
+            "content": "Content",
+            "user": "User",
+            "excerpt": "Excerpt",
+            "status": "Status",
+            "postType": "PostType",
+            "postDate": "PostDate",
+            "commentsAllowed": "CommentsAllowed",
+            "guid": "Guid"
+        }
+    }
+}
+

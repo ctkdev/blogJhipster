@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "baseName": "blogJhipster",
+    "packageName": "com.ctkdev",
+    "packageFolder": "com/ctkdev",
+    "authenticationType": "xauth",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "enableTranslation": true,
+    "rememberMeKey": "6cf41e8db17c5c24f5bd966d862338079ba3a55b"
+  }
+}

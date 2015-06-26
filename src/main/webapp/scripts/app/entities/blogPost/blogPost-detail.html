@@ -1,0 +1,94 @@
+
+<div>
+    <h2><span translate="blogjhipsterApp.blogPost.detail.title">BlogPost</span> {{blogPost.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.title">Title</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.title}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.content">Content</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.content}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.user">User</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.user}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.excerpt">Excerpt</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.excerpt}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.status">Status</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.status}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.postType">PostType</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.postType}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.postDate">PostDate</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.postDate}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.commentsAllowed">CommentsAllowed</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.commentsAllowed}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="blogjhipsterApp.blogPost.guid">Guid</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{blogPost.guid}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="blogPost"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

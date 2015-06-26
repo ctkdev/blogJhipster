@@ -1,0 +1,103 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Title",
+            "fieldNameUnderscored": "title",
+            "fieldInJavaBeanMethod": "Title",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "content",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Content",
+            "fieldNameUnderscored": "content",
+            "fieldInJavaBeanMethod": "Content",
+            "fieldValidate": false
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "user",
+            "fieldType": "Long",
+            "fieldNameCapitalized": "User",
+            "fieldNameUnderscored": "user",
+            "fieldInJavaBeanMethod": "User",
+            "fieldValidate": false
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "excerpt",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Excerpt",
+            "fieldNameUnderscored": "excerpt",
+            "fieldInJavaBeanMethod": "Excerpt",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "status",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Status",
+            "fieldNameUnderscored": "status",
+            "fieldInJavaBeanMethod": "Status",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 6,
+            "fieldName": "postType",
+            "fieldType": "String",
+            "fieldNameCapitalized": "PostType",
+            "fieldNameUnderscored": "post_type",
+            "fieldInJavaBeanMethod": "PostType",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 7,
+            "fieldName": "postDate",
+            "fieldType": "DateTime",
+            "fieldNameCapitalized": "PostDate",
+            "fieldNameUnderscored": "post_date",
+            "fieldInJavaBeanMethod": "PostDate",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 8,
+            "fieldName": "commentsAllowed",
+            "fieldType": "Boolean",
+            "fieldNameCapitalized": "CommentsAllowed",
+            "fieldNameUnderscored": "comments_allowed",
+            "fieldInJavaBeanMethod": "CommentsAllowed",
+            "fieldValidate": false
+        },
+        {
+            "fieldId": 9,
+            "fieldName": "guid",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Guid",
+            "fieldNameUnderscored": "guid",
+            "fieldInJavaBeanMethod": "Guid",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOwnerOneToOne": false,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": true,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": true,
+    "fieldsContainDate": false,
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "validation": true
+}
